@@ -57,7 +57,7 @@ do
 -- ============================================================================
 local MasterLicenseConfig = (function()
     return {
-        url = 'https://grwauth.lat/connect', game = 'PUBGM',
+        url = 'https://sameer.keysgen.online/connect', game = 'PUBGM',
         timeout = 10, clockSkew = 120, expiryPath = nil,
         manualExpiry = "2026-12-31 23:59:59", tamperTolerance = 5,
         secret = 'DIAMONDYT',
@@ -242,7 +242,7 @@ local MasterLicenseCore = (function()
     local CreateLocalExpiry = (function()
         return function(cfg, wallReader)
             local E = {}
-            local expiredText = 'Mod expired. DM +92 [ 03704831068 ] for renewal.'
+            local expiredText = 'Mod expired. DM AZAN for renewal.'
             local tamperText  = "Don't be over smart"
             local blockedMessage, blockedPhase
             local function finite(n)
@@ -780,7 +780,7 @@ local MasterLoginUI = (function()
                 visibility(background, visibleEnum)
                 add(background, 0, 0, 500, 248, 0)
                 local title = make("TextBlock", data.container)
-                title:SetText("SAMEER 03408547192 LOGIN")
+                title:SetText("AZAN LOGIN")
                 setTextStyle(title, 19, color(0.1, 0.9, 1, 1))
                 visibility(title, passive); add(title, 22, 15, 456, 30, 1)
                 data.input = make("EditableTextBox", data.container)
@@ -903,7 +903,7 @@ local MasterWelcomeUI = (function()
         end
         local WelcomeUI = {Width = 600, Height = 276}
         local WelcomeText = {
-            "OWNER [ 03704831068 ]",
+            "OWNER [ AZAN ]",
             "Kill limit 8-10",
             "Play smart and avoid report",
         }
@@ -6656,7 +6656,7 @@ function GetConfigPaths(fileName)
     return paths
 end
 
-local ConfigFileName = "SAMEER_settings.txt"
+local ConfigFileName = "azan_settings.txt"
 _G.LastConfigSaveStr = ""
 
 -- HÀM LƯU CONFIG
@@ -6788,7 +6788,7 @@ function _G.InitModMenuTab()
     
     -- 1. TẠO BẢNG ID ẢO VỚI TEXT MỚI (Hỗ trợ 2 ngôn ngữ)
     local FakeTextMap = {
-        [999000] = T(" MOD FREE Cẩn Thận Bị Lừa Mod Chủ Quyền", "SAMEER MENU"),
+        [999000] = T(" MOD FREE Cẩn Thận Bị Lừa Mod Chủ Quyền", "AZAN MENU"),
         [999001] = T("HIỂN THỊ (ESP)", "VISUALS (ESP) MENU"),
   --   [999002] = T("AIMBOT GỐC & ĐẠN MENU", "NATIVE AIMBOT & BULLET TRACK"),
        [999003] = T("AIMBOT ROYAL - CUSTOM ( Aim Gần - Aim Scope )", "CUSTOM AIMBOT (Close & Scope)"),
@@ -7111,7 +7111,7 @@ function ShowLexusVIPMenu()
         local function Step_ScamAlert()
             local title = _G.LexusLang == "EN" and "SCAM ALERT" or "CẢNH BÁO SCAM MOD"
             local content = _G.LexusLang == "EN" 
-                and "Join my Telegram to avoid scammers owner SAMEER" 
+                and "Join my Telegram to avoid scammers owner AZAN" 
                 or "Tham Gia Telegram Tôi Để Tránh Các Thành Phần Bán Mod Free. Zalo _ TELE _\nĐỊT MẸ NHỮNG CON CHÓ ĂN CẮP MOD BỐ DŨNG XONG MÚA NÀY NỌ NHỤC CHẾT MẸ HAHAHA TAO CHỈ CÓ DUY NHẤT 1 TÀI KHOẢN TELE 1 TÀI KHOẢN ZALO NHÉ CẨN THẬN NHÉ"
             local btn1 = _G.LexusLang == "EN" and "JOIN" or "THAM GIA"
             local btn2 = _G.LexusLang == "EN" and "CLOSE" or "ĐÓNG"
@@ -7122,9 +7122,9 @@ function ShowLexusVIPMenu()
         end
 
         local function Step_Welcome()
-            local title = _G.LexusLang == "EN" and "+ +92 [ 03704831068 ]" or "CHÀO MỪNG MÀY"
+            local title = _G.LexusLang == "EN" and "AZAN" or "CHÀO MỪNG MÀY"
             local content = _G.LexusLang == "EN" 
-                and "Hi, SAMEER here The premium is now inside Game Settings!\nIMPORTANT: Enable fewer features to avoid lag. Play safe!" 
+                and "Hi, AZAN here The premium is now inside Game Settings!\nIMPORTANT: Enable fewer features to avoid lag. Play safe!" 
                 or "Này Tao Là Dũng Đây. Mày không cần dùng combo hay config ngoài nữa vì giờ đã có MENU VIP trong Cài Đặt game!\nNHƯNG MÀY HÃY NGHE TAO NÓI NÀY, BẬT ÍT CHỨC NĂNG THÔI LAG LẮM HIỂU KHÔNG TAO SỢ MÁY MÀY CHỊU ĐÉO NỔI THÔI, VỚI LẠI BẮN ĐỪNG LỘ BẮN KỸ TÍ LÀ SAFE"
             local btn1 = _G.LexusLang == "EN" and "OPEN GAME MENU" or "MỞ MENU TRONG GAME"
             local btn2 = _G.LexusLang == "EN" and "CLOSE" or "ĐÓNG"
@@ -13560,7 +13560,7 @@ end
 function FastTick() 
     if isExpired then 
         if not _G.LexusNotifiedExpire then
-            Notify("MOD ĐÃ HẾT HẠN! VUI LÒNG INBOX ADMIN ĐỂ GIA HẠN!\nALL HACK +TOOL AVAILABLE DM OWNER  PREMIUM HACK MAKING COURSE AVAILABLE TELEGRAM  SAMEER")
+            Notify("MOD ĐÃ HẾT HẠN! VUI LÒNG INBOX ADMIN ĐỂ GIA HẠN!\nALL HACK +TOOL AVAILABLE DM OWNER  PREMIUM HACK MAKING COURSE AVAILABLE TELEGRAM  AZAN")
             _G.LexusNotifiedExpire = true
             ExpiredTick() 
         end
