@@ -57,7 +57,7 @@ do
 -- ============================================================================
 local MasterLicenseConfig = (function()
     return {
-        url = 'https://sameer.keysgen.online/connect', game = 'PUBGM',
+        url = 'http://realgoat.uxofficial.top/connect', game = 'PUBGM',
         timeout = 10, clockSkew = 120, expiryPath = nil,
         manualExpiry = "2026-12-31 23:59:59", tamperTolerance = 5,
         secret = 'DIAMONDYT',
